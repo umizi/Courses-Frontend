@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<meta name="description" content="description">
+ 
+<title>Menu Example</title>
+<style>
+    * {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #e5e5e7;
+}
+
+nav {
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 50px ;
+  width: 200px;
+  -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+     -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+          box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.menu-item {
+  background: #fff;
+  width: 200px; 
+}
+
+/*Menu Header Styles*/
+.menu-item h4 {
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  border-top: 1px solid rgba(255,255,255,0.2);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 7px 12px;
+  
+  /*Gradient*/
+  background: #a90329; /* Old browsers */
+}
+
+.menu-item h4:hover {  
+  background: #cc002c; /* Old browsers */
+
+}
+
+.menu-item h4 a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  width: 200px;
+}
+
+/*ul Styles*/
+.menu-item ul {
+  background: #fff;
+  font-size: 13px;
+  line-height: 30px;
+  height: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+  
+  /*Animation*/
+  -webkit-transition: height 1s ease;
+     -moz-transition: height 1s ease;
+       -o-transition: height 1s ease;
+      -ms-transition: height 1s ease;
+          transition: height 1s ease;
+}
+
+
+.menu-item:hover ul {
+  height: 93px;
+  
+}
+
+.menu-item ul a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #aaa;
+  display: block;
+  width: 200px;
+}
+
+/*li Styles*/
+.menu-item li {
+  border-bottom: 1px solid #eee;
+}
+
+.menu-item li:hover {
+  background: #eee;
+}
+
+/*First Item Styles*/
+.alpha p {
+	padding: 8px 12px;
+	color: #aaa;
+}
+
+.alpha p a {
+	color: #aaa;
+	font-style: italic;
+}
+
+.alpha p a:hover {
+	color: #ccc;
+}
+</style>
+ 
+</head>
+ 
+<body>
+    <div id="container">
+		<nav>
+		    <div class="menu-item alpha">
+		      <h4><a href="#">Courses</a></h4>
+		    </div>
+		      
+		    <div class="menu-item">
+		      <h4><a href="#">Art and Music</a></h4>
+		      <ul>
+		        <li><a href="#">Fine Arts</a></li>
+		        <li><a href="#">Symphonic Band</a></li>
+		        <li><a href="#">Concert Choir</a></li>
+		      </ul>
+		    </div>
+		      
+		    <div class="menu-item">
+		      <h4><a href="#">Computer Science</a></h4>
+		      <ul>
+		        <li><a href="#">Systems Programming</a></li>
+		        <li><a href="#">Computer Graphics</a></li>
+		        <li><a href="#">Software Development</a></li>
+		      </ul>
+		    </div>
+            
+            <div class="menu-item">
+		      <h4><a href="#">English</a></h4>
+		      <ul>
+		        <li><a href="#">English Literature</a></li>
+		        <li><a href="#">Asian American Fiction</a></li>
+		        <li><a href="#">Science Fiction and Fantasy</a></li>
+		      </ul>
+		    </div>
+            
+            <div class="menu-item">
+		      <h4><a href="#">Mathematics</a></h4>
+		      <ul>
+		        <li><a href="#">Euclidean Geometry</a></li>
+		        <li><a href="#">Precalculus</a></li>
+		        <li><a href="#">AP Calculus BC</a></li>
+		      </ul>
+		    </div>
+            
+            <div class="menu-item">
+		      <h4><a href="#">Biology</a></h4>
+		      <ul>
+		        <li><a href="#">Molecular Biology</a></li>
+		        <li><a href="#">Environmental Science</a></li>
+		        <li><a href="#">Modern Biology</a></li>
+		      </ul>
+		    </div>
+            
+            <div class="menu-item">
+		      <h4><a href="#">Chemistry</a></h4>
+		      <ul>
+		        <li><a href="#">General Chemistry</a></li>
+		        <li><a href="#">Organic Chemistry</a></li>
+		        <li><a href="#">Physical Chemistry</a></li>
+		      </ul>
+		    </div>
+            
+            <div class="menu-item">
+		      <h4><a href="#">Physics</a></h4>
+		      <ul>
+		        <li><a href="#">Modern Physics</a></li>
+		        <li><a href="#">AP Physics B</a></li>
+		        <li><a href="#">AP Physics C</a></li>
+		      </ul>
+		    </div>
+		      
+		    <div class="menu-item">
+		      <h4><a href="#">Health &amp; Phys Ed</a></h4>
+		      <ul>
+		        <li><a href="#">Polar Bear</a></li>
+		        <li><a href="#">Volleyball</a></li>
+		        <li><a href="#">Weight Training</a></li>
+		      </ul>
+		    </div>
+            
+            <div class="menu-item">
+		      <h4><a href="#">Technology Education</a></h4>
+		      <ul>
+		        <li><a href="#">Technical Drawing</a></li>
+		        <li><a href="#">Advanced Architecture</a></li>
+		        <li><a href="#">Video Production</a></li>
+		      </ul>
+		    </div>
+            
+            <div class="menu-item">
+		      <h4><a href="#">World Languages</a></h4>
+		      <ul>
+		        <li><a href="#">Spanish</a></li>
+		        <li><a href="#">French</a></li>
+		        <li><a href="#">German</a></li>
+		      </ul>
+		    </div>
+            
+            <div class="menu-item">
+		      <h4><a href="#">Social Studies</a></h4>
+		      <ul>
+		        <li><a href="#">Global Studies</a></li>
+		        <li><a href="#">AP European History</a></li>
+		        <li><a href="#">AP United States History</a></li>
+                <li><a href="#">AP Macroeconomics</a></li>
+		      </ul>
+		    </div>
+		</nav>
+    </div>
+    
+</body>
+</html>
